@@ -1,25 +1,28 @@
-body{
+body {
     font-size: 16px;
     margin: 0;
     padding: 0;
     font-family: 'Fira Sans', sans-serif;
-    line-height: 1.5;
-    color:  #2C3253;
+    line-height: 1.3;
+    color: #2C3253;
 }
+
 *,
 *:before,
 *:after {
     box-sizing: border-box;
 }
-.container{
+
+.container {
     width: 100%;
     max-width: 1170px;
     margin: 0 auto;
 }
-.intro{
-    width: 100%;
 
+.intro {
+    width: 100%;
 }
+
 h1,
 h2,
 h3,
@@ -30,104 +33,565 @@ h6 {
     margin: 0;
     text-transform: uppercase;
 }
+
 ul,
 li {
     display: block;
 }
-.header{
+
+.header {
     width: 100%;
-    padding: 20px;
+    height: 80vh;
+    padding-top: 40px;
     left: 0;
     right: 0;
     z-index: 1000;
     background: url("../image/headerbg.png") no-repeat center top / cover;
 }
-.logo{
+
+.logo {
     margin: -22px 28px;
 }
-.header_inner{
+
+.header_inner {
     display: flex;
-    
-    margin: 20px 0px 100px;
-    margin-top: 20px;
+    margin: 0 0px 100px;
     align-items: center;
 }
-.header_number{
+
+.header_number {
     font-size: 22px;
     font-weight: 600;
 }
-.header_txt{
+
+.header_txt {
     font-size: 18px;
     margin-right: 108px;
 }
-.header_number{
+
+.header_number {
     margin: -7px 34px 0 55px;
 }
-.header_btn{
-    color:  #2C3253;
+
+.header_btn {
+    color: #2C3253;
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
-
     border: 1px solid #FFEB9C;
     box-sizing: border-box;
     border-radius: 3px;
     padding: 20px 30px;
 }
-.massage_icons{
+
+.header_btn:hover {
+    background: #FFEB9C;
+    transition: .2s;
+}
+
+.massage_icons {
     margin: 0 auto;
 }
+
+
 /* section */
-.title{
+
+.title {
+    color: #2C3253;
     font-weight: 300;
     font-size: 46px;
 }
 
+.text {
+    color: #575B6F;
+    margin: 30px 0 69px;
+    font-size: 21px;
+}
+
+.button {
+    padding: 23px 56px;
+    font-size: 18px;
+    background: #FFEB9C;
+    border-radius: 60px;
+    text-decoration: none;
+    color: #4A4C57;
+}
 
 
+/* section */
+
+.section_header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.house {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.house_item {
+    margin: 0px 0px 31px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.house_content {
+    padding: 44px 0 33px 48px;
+}
+
+.house_button {
+    font-weight: 600;
+    border: 1px solid #FFEB9C;
+    border-radius: 60px;
+    text-decoration: none;
+    color: #2C3253;
+    padding: 13px 21px;
+}
+
+.house_title {
+    margin-bottom: 38px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.house_button:hover {
+    background: #FFEB9C;
+    transition: .2s;
+}
+
+.aside {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+.aside_content {
+    position: absolute;
+    margin-top: 15px;
+}
+
+.aside_item {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aside_text {
+    font-size: 16px;
+    margin: 26px 0 62px 0;
+}
+
+.pillow_pic {
+    margin-left: 67px;
+}
+
+.look_btn {
+    padding: 23px 36px;
+}
+
+.aside_title {
+    color: #2C3253;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 36px;
+}
+
+.aside_cont {
+    margin-left: 12px
+}
+
+.box {
+    margin-right: 62px;
+    display: flex;
+    width: 19%;
+}
+
+.box_item {
+    flex: 1 1 0;
+    border: 1px solid #f2f3f4;
+    padding: 47px 32px;
+    background: #EAEFF2;
+    border-radius: 20px;
+    margin-right: -27px;
+    text-decoration: none;
+}
+
+.box_item:hover {
+    background: white;
+    transition: .2s;
+}
+
+.aside_box {
+    display: flex;
+}
+
+.box_number {
+    border: 1px solid #FFEB9C;
+    background: #FFEB9C;
+    padding: 5px 15px;
+    border-radius: 50%;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    position: absolute;
+    flex: 1 1 0;
+    color: #4A4C57;
+}
+
+.box_title {
+    margin-top: 37px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #2C3253;
+}
+
+.card_img {
+    margin-left: 22px;
+}
+
+.news {
+    display: flex;
+}
+
+.news_item {
+    width: 50%;
+}
+
+.item_group {
+    display: flex;
+    margin: 42px 0 35px;
+}
+
+.item:first-child {
+    margin-right: 23px;
+}
+
+.news_item:last-child {
+    margin-left: 20px;
+}
+
+.item_index {
+    font-size: 18px;
+    margin: 15px 0 9px;
+    line-height: 19px;
+    font-weight: 300;
+}
+
+.item_subtext {
+    font-weight: 600;
+    font-size: 21px;
+    color: #2C3253;
+}
+
+.name_item {
+    font-weight: 600;
+    color: #2C3253;
+}
+
+.client_item {
+    margin-top: 62px;
+}
+
+.item_text {
+    margin: 15px 90px 33px 0px;
+    color: #575B6F;
+}
+
+.client_item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_reg {
+    display: flex;
+}
+
+.main_header {
+    padding: 121px 0 50px;
+}
+
+.name {
+    margin-bottom: 35px;
+    font-weight: 600;
+    color: #2C3253;
+}
+
+.input {
+    margin-right: 19px;
+    background: #EAEFF2;
+    /* тень плашек */
+    box-shadow: 0px 8px 20px rgba(19, 21, 22, 0.1);
+    border-radius: 60px;
+    font-size: 18px;
+    border: 1px solid #EAEFF2;
+    padding: 23px 55px 23px 20px;
+}
+
+.reg_btn {
+    margin-top: 45px;
+}
+
+.accept {
+    margin: 38px 0 0 30px;
+}
+
+#accept {
+    color: #333;
+}
+
+.under_logo {
+    font-size: 18px;
+}
 
 
+/* last_section */
+
+.last_section {
+    justify-content: space-between;
+    display: flex;
+    flex: 1 1 0;
+}
+
+main {
+    padding-bottom: 103px;
+    background: url("../image/lastflo.png") no-repeat center;
+    background-position: bottom 50px right 15%;
+}
+
+.header_logo {
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 103px;
+}
+
+.footer_text {
+    font-size: 16px;
+    margin: 8px 0 16px;
+}
+
+.footer_title {
+    line-height: 1.4;
+    color: #2C3253;
+}
+
+.footer_txt {
+    font-size: 16px;
+    line-height: 3.4;
+    margin-top: 26px;
+}
+
+.footer_item {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer_tit {
+    font-weight: 600;
+}
+
+.number {
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #2C3253;
+}
+
+.under_logo {
+    margin-bottom: 75px;
+}
+
+.contact_title {
+    font-size: 21px;
+    font-weight: 600;
+    right: 0;
+    text-decoration: none;
+    color: #2C3253;
+}
+
+.contact {
+    margin-top: 27px;
+}
+
+.last_footer {
+    text-align: right;
+}
 
 
+/* SLIDER */
+
+* {
+    box-sizing: border-box
+}
 
 
+/* Slideshow container */
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+
+/* Hide the images by default */
+
+.mySlides {
+    display: none;
+}
+
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    border-radius: 50%;
+    padding: 19px 26px;
+    border: 1px solid white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    user-select: none;
+}
+
+
+/* Position the "next button" to the right */
+
+.next {
+    right: 0;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+    background-color: white;
+}
+
+
+/* Caption text */
+
+
+/* Number text (1/3 etc) */
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #F0F0F0;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.dots {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.active,
+.dot:hover {
+    background-color: white;
+}
+
+
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
 
 
 /* menu */
-/* скрываем чекбокс */
+
 #menu__toggle {
     opacity: 0;
-  }
-  /* стилизуем кнопку */
-  .menu__btn {
-    display: flex; /* используем flex для центрирования содержимого */
-    align-items: center;  /* центрируем содержимое кнопки */
+}
+
+
+/* стилизуем кнопку */
+
+.menu__btn {
+    display: flex;
+    /* используем flex для центрирования содержимого */
+    align-items: center;
+    /* центрируем содержимое кнопки */
     position: fixed;
     top: 55px;
     width: 34px;
     height: 28px;
     cursor: pointer;
     z-index: 1;
-  }
-  /* добавляем "гамбургер" */
-  .menu__btn > span,
-  .menu__btn > span::before,
-  .menu__btn > span::after {
+}
+
+
+/* добавляем "гамбургер" */
+
+.menu__btn>span,
+.menu__btn>span::before,
+.menu__btn>span::after {
     display: block;
     position: absolute;
     width: 100%;
     height: 3px;
     background-color: #8BAAC9;
-  }
-  .menu__btn > span::before {
+}
+
+.menu__btn>span::before {
     content: '';
     top: -10px;
-  }
-  .menu__btn > span::after {
+}
+
+.menu__btn>span::after {
     content: '';
     top: 10px;
-  }
-  /* контейнер меню */
+}
+
+
+/* контейнер меню */
+
 .menu__box {
     display: block;
     position: fixed;
@@ -142,9 +606,12 @@ li {
     text-align: center;
     background-color: #ECEFF1;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
-  }
-  /* элементы меню */
-  .menu__item {
+}
+
+
+/* элементы меню */
+
+.menu__item {
     display: block;
     padding: 12px 24px;
     color: #333;
@@ -152,22 +619,41 @@ li {
     font-size: 20px;
     font-weight: 600;
     text-decoration: none;
-  }
-  .menu__item:hover {
+}
+
+.menu__item:hover {
     background-color: #CFD8DC;
-  }
-  #menu__toggle:checked ~ .menu__btn > span {
+}
+
+#menu__toggle:checked~.menu__btn>span {
     transform: rotate(45deg);
-  }
-  #menu__toggle:checked ~ .menu__btn > span::before {
+}
+
+#menu__toggle:checked~.menu__btn>span::before {
     top: 0;
     transform: rotate(0);
-  }
-  #menu__toggle:checked ~ .menu__btn > span::after {
+}
+
+#menu__toggle:checked~.menu__btn>span::after {
     top: 0;
     transform: rotate(90deg);
-  }
-  #menu__toggle:checked ~ .menu__box {
+}
+
+#menu__toggle:checked~.menu__box {
     visibility: visible;
     left: 0;
-  }
+}
+
+.left_flower {
+    position: absolute;
+}
+
+.leftside {
+    position: absolute;
+    left: 0;
+}
+
+.rightside {
+    position: absolute;
+    right: 0;
+}
