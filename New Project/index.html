@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media-request.css">
-    <script src="js/config.js"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;600&display=swap" rel="stylesheet">
@@ -36,8 +36,8 @@
                 </div>
                 <div class="header_txt">Клининговые</br>услуги</div>
                 <div class="massage_icons">
-                    <img src="image/WApp.png" alt="">
-                    <img src="image/Telegramm.png" alt="">
+                    <a href=""> <img src="image/WApp.png" alt=""></a>
+                    <a href=""> <img src="image/Telegramm.png" alt=""></a>
                 </div>
                 <div class="header_number">
                     <img src="image/call.png" alt=""> 8 800 333-55-55 </br>
@@ -55,9 +55,30 @@
                 <div class="text">
                     Если вы хотите сэкономить время, избавиться от <br>лишних трудозатрат и при этом обеспечить идеальную <br> чистоту, мы готовы прийти на помощь!
                 </div>
-                <a href="" class="button">
+
+                <button onclick="show('block')" href="" class="button modal_btn">
                     Оставить заявку
-                </a>
+                </button>
+                <div onclick="show('none')" id="filter"></div>
+                <div class="modalform" id="modalform">
+                    <form class="modal" action="">
+                        <div class="modal_header">
+                            <a onclick="show('none')" href="#" class="close"></a>
+                            <div class="modal_subtitle">Оставить заявку</div>
+
+                            <div class="modal_title">Ответим на все ваши вопросы</div>
+                        </div>
+                        <input class=" input_reg" type="text" placeholder="Ваше имя">
+
+                        <input class=" input_reg input_reg1" type="tel +7" placeholder="+7 (___) - ___-__-__">
+                        <a href="" class="button button_reg">Жду звонка</a>
+                        <div class="accept">
+                            <input type="checkbox" name="" id="">
+                            <div class="modal_text">Я даю своё согласие на обработку персональных данных</div>
+                        </div>
+                    </form>
+                </div>
+
             </div>
     </header>
     <section>
@@ -378,6 +399,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="js/config.js"></script>
 </body>
 
 </html>
