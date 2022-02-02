@@ -36,7 +36,7 @@
         margin-top: 42px;
     }
     .input {
-        padding: 22px 15px 23px 20px;
+        padding: 22px 12px 23px 17px;
         margin-right: 8px;
     }
     .header_number {
@@ -49,7 +49,275 @@
 }
 
 @media only screen and (max-width: 995px) {
+    .header {
+        padding-top: 33px;
+    }
+    .logo {
+        padding-bottom: 10px;
+        margin: -22px 16px;
+    }
+    .header_txt {
+        font-size: 15px;
+        display: none;
+    }
+    .header_number {
+        margin: -9px 11px 0 -4px;
+        font-size: 16px;
+    }
+    .header_btn {
+        padding: 16px 12px;
+        font-size: 14px;
+    }
+    .massage_icons {
+        margin-right: 19px;
+    }
+    .text {
+        font-size: 19px;
+    }
+    .title {
+        font-size: 36px;
+    }
     .input {
         margin-right: 8px;
+    }
+    .house_png {
+        width: 282px;
+    }
+    .house_button {
+        padding: 10px 3px;
+        position: absolute;
+    }
+    .aside_item {
+        width: 39%;
+    }
+    .card_img {
+        margin-left: 1px;
+    }
+    .box_title {
+        margin-top: 27px;
+        font-size: 15px;
+    }
+    .box_item {
+        padding: 32px 32px;
+    }
+    .aside_box {
+        padding-top: 34px;
+    }
+    .look_btn {
+        padding: 21px 28px;
+    }
+    .news {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .news_item {
+        width: auto;
+    }
+    .news_item:last-child {
+        margin-left: 12%;
+    }
+    .news:last-child {
+        margin-top: 45px;
+    }
+    .item_text {
+        border-bottom: 1px solid;
+    }
+    .main_reg {
+        width: 104%;
+        flex-wrap: wrap;
+    }
+    main {
+        background-position: bottom 73px right 82%;
+    }
+    .input {
+        padding: 22px 9px 20px 17px
+    }
+    .footer_txt {
+        font-size: 14px;
+    }
+    .number {
+        font-size: 19px;
+    }
+    .footer_text {
+        font-size: 14px;
+        margin: 7px 0 15px;
+    }
+}
+
+@media only screen and (max-width: 748px) {
+    .house {
+        justify-content: center;
+    }
+    .house_item {
+        width: auto;
+    }
+    .footer_offer {
+        display: none;
+    }
+    .massage_icons {
+        display: none;
+    }
+    .text {
+        font-size: 15px;
+    }
+    .title {
+        font-size: 29px;
+    }
+    .modal_btn {
+        padding: 18px 35px;
+        font-size: 15px;
+    }
+    .house_button {
+        padding: 13px 15px;
+    }
+    .header {
+        height: 68vh;
+    }
+    .header_inner {
+        margin: 0 0px 77px;
+    }
+    .pillow_pic {
+        display: none;
+    }
+    .aside_cont {
+        position: relative;
+    }
+    .aside_content {
+        position: relative;
+    }
+    .aside_item {
+        width: auto;
+    }
+    .look_btn {
+        font-size: 16px;
+        padding: 16px 17px;
+    }
+    .aside_text {
+        font-size: 15px;
+        margin: 13px 0px 39px 0px;
+    }
+    .aside_item:last-child {
+        margin-top: 23px;
+    }
+    .aside {
+        margin-top: 0px
+    }
+    .aside_title {
+        text-align: center;
+    }
+    .aside_box {
+        margin-right: 4%;
+        justify-content: center;
+        padding-top: 0;
+    }
+    .name {
+        margin-bottom: 23px;
+    }
+    .logo {
+        width: 195px;
+    }
+    .item:first-child {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 573px) {
+    main {
+        background-position: bottom -28px right 46%;
+    }
+    .item_group {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer_inf {
+        display: none;
+    }
+    .header_number {
+        display: none;
+    }
+    .title {
+        font-size: 19px;
+    }
+    .text {
+        font-size: 13px;
+    }
+    .header_inner {
+        margin: 0 0px 50px;
+    }
+    .logo {
+        width: 168px;
+    }
+    .header_btn {
+        font-size: 13px;
+    }
+    .menu__btn {
+        top: 44px;
+    }
+    .header {
+        height: 50vh;
+    }
+    .header_inner {
+        margin: 0px 0px 32px;
+    }
+    .aside_cont {
+        width: 72%;
+    }
+    .box_item {
+        padding: 24px 23px;
+    }
+    .card_img {
+        height: 46px;
+        margin: 0 auto;
+    }
+    .header_logo {
+        margin-top: 0;
+    }
+    .header_logo {
+        width: 84%;
+    }
+    .item:first-child {
+        margin-right: 0;
+    }
+    .section_header {
+        margin-bottom: 26px;
+    }
+    .number {
+        font-size: 13px;
+    }
+    main {
+        padding-bottom: 0;
+    }
+    .news_item {
+        margin-top: 22px;
+    }
+    .title_news {
+        text-align: center;
+    }
+    .section_card {
+        margin-bottom: -88px;
+    }
+    .house_title {
+        font-size: 16px;
+    }
+    .house_button {
+        font-size: 11px;
+    }
+    .aside_title {
+        font-size: 18px;
+    }
+    .aside_box {
+        margin-right: -11%;
+    }
+    .box--item {
+        width: 186%;
+    }
+}
+
+@media only screen and (max-width: 395px) {
+    .logo {
+        width: 149px;
+    }
+    .header {
+        height: 65vh;
     }
 }

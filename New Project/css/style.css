@@ -675,6 +675,10 @@ footer {
     right: 0;
 }
 
+.box:last-child {
+    margin-right: 0;
+}
+
 
 /* REGISTER */
 
