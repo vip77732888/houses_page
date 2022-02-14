@@ -31,3 +31,8 @@ var show = function(state) {
     document.getElementById("modalform").style.display = state;
     document.getElementById("filter").style.display = state;
 }
+
+function showModal() {
+    let show = document.getElementById("button_reg")
+    show.onclick = alert("sos")
+};

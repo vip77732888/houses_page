@@ -62,15 +62,12 @@ li {
 .header_number {
     font-size: 22px;
     font-weight: 600;
+    margin: -7px 15px 0 55px;
 }
 
 .header_txt {
     font-size: 18px;
     margin-right: 108px;
-}
-
-.header_number {
-    margin: -7px 34px 0 55px;
 }
 
 .header_btn {
